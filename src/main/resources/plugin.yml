@@ -1,0 +1,6 @@
+name: MC-Crasher
+version: '${project.version}'
+main: cb.sektory.mccrasher.MC_Crasher
+authors: [Cobra_craft]
+description: Plugin do crashowania graczy
+website: https://github.com/Adixon0
