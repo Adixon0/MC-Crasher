@@ -1,6 +1,11 @@
-name: MC-Crasher
-version: '${project.version}'
+name: MC_Crasher
+version: 1.0
 main: cb.sektory.mccrasher.MC_Crasher
-authors: [Cobra_craft]
-description: Plugin do crashowania graczy
-website: https://github.com/Adixon0
+depend: [ProtocolLib]
+commands:
+  mccrash:
+    description: Wywala minecrafta wybranemu graczowi
+    usage: /mccrash <player>
+  pingplayer:
+    description: Ustawia symulowany ping dla gracza.
+    usage: /pingplayer <nick gracza> <wartość pingu>
